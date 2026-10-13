@@ -8,10 +8,7 @@ import type {
   Usuario,
 } from "@/types";
 
-/**
- * DADOS DEMONSTRATIVOS (fictícios). Não representam registros reais.
- * Quando houver API, substitua a origem em `src/services/dashboard.ts`.
- */
+/** Apenas Dados Demonstrativos.Dados do Figma por enquanto. */
 
 export const DATA_REFERENCIA_DEMO = "2026-04-17";
 
@@ -49,7 +46,7 @@ export const resumoDemo: ResumoOperacional = {
   licencasVencendo: 3,
 };
 
-/** Histórico anterior ao ponto atual (abr/2026 e 17/04 são calculados). */
+/** Histórico anterior ao ponto atual. */
 export const historicoDemo: HistoricoSeries = {
   semanal: [
     { rotulo: "20/03", documentos: 108, tarefas: 31, licencas: 17, unidades: 6 },

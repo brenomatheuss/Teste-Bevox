@@ -17,7 +17,7 @@ export default function Sidebar({
 
   return (
     <div className="flex h-full flex-col bg-navy-950 text-slate-300">
-      {/* Marca -> Adiciona a foto da Bevox. Ass: Breno */}
+      {/* Marca -> Adicionar a foto da Bevox. Ass: Breno */}
       <div className="flex items-center gap-3 px-5 pt-5">
         <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-white text-blue-700">
           <BeerIcon className="h-6 w-6" />
